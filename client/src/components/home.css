@@ -1,0 +1,12 @@
+.list-group{
+    height: 75vh;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.list-group::-webkit-scrollbar {
+    display: none;
+}
